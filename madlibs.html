@@ -2,20 +2,24 @@
 <html>
 <body>
   <script>
+    /*
+    // inital message for user
+    var response = prompt("Ready for your MadLib? Y / N");
 
-    /*var response = prompt("Ready for your MadLib? (Y / N)");
-    // var ans = response;
-
-    function makeMadLibs(response) {
-      if (response == "Y" || "y")
-        return MadLib;
-      else
-        return exit;
+    // does user want to make a madlib? yes or no
+    function makeMadLibs(ans) {
+      if (ans == "Y" || "y")
+        {
+          MadLibs();
+        }
+      else {
+        // exit message - if user does not want to make a madlib
+        return console.log("Maybe next time. Goodbye!");
+      }
     }
 
-    var exit = console.log("Maybe next time. Goodbye!");
-
-    function MadLib(){*/
+    // create madlib function - if user decides to make a madlib
+    function MadLibs() {*/
       var noun = prompt("Choose a NOUN!");
       var adjective = prompt("Choose an ADJECTIVE!");
       var adverb = prompt("Choose an ADVERB!");
@@ -23,7 +27,6 @@
 
       console.log("On a " + adjective + " island,\nUnderneath a molten lava moon,\n" + verb + " with the " + noun + ",\n" + adverb + " askin' questions cause' they got all the answers.");
     //}
-
 
   </script>
 </body>
