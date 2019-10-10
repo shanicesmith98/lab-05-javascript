@@ -6,7 +6,9 @@
     var ans = prompt("Ready for your MadLib? Y / N");
 
     // does user want to make a madlib? yes or no
-    if (ans == "Y" || "y") {
+    if (ans == "Y") {
+      MadLibs();
+    } else if (ans == "y") {
       MadLibs();
     } else {
       // exit message - if user does not want to make a madlib
